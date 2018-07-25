@@ -14,3 +14,14 @@ const HexInput = props => {
       placeholder="#000000" />
   );
 };
+
+
+function Component({key}) {
+  console.log(key);
+  return null;
+}
+
+ReactDOM.render(
+  <Component key="99" />,
+  document.getElementById('root')
+);
