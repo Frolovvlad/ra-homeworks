@@ -1,6 +1,7 @@
 'use strict';
 
 const Form = (props) => {
+  console.log(props)
   return (
     <div className="col-md-5 offset-md-4">
       <h1 className="text-center">Регистрация</h1>
